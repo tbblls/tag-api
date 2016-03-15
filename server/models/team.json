@@ -1,0 +1,30 @@
+{
+  "name": "Team",
+  "plural": "teams",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "people": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string",
+      "required": true
+    },
+    "tagCount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
