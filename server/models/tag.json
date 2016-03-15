@@ -13,7 +13,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "team": {
+      "type": "hasOne",
+      "model": "Team",
+      "foreignKey": ""
+    },
+    "profile": {
+      "type": "hasOne",
+      "model": "Profile",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
